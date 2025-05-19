@@ -29,7 +29,7 @@ Built with efficiency and minimalism in mind, **EmbedAI** is written in C and de
   All inference happens on-device — your data never leaves the hardware.
 
 - 🌍 **Made for the Real World**  
-  From wearables to industrial sensors, EmbedAI is ready for harsh, low-power, and bandwidth-constrained environments.
+  Tested for use in wearables, edge cameras, industrial sensors, and low-power MCUs. EmbedAI is built for environments where every byte and cycle counts.
 
 ---
 
@@ -56,7 +56,8 @@ See [LICENSE](LICENSE) for full details.
 
 ## Contributing
 
-This project welcomes contributions! Whether you're fixing a bug, optimizing performance, or porting EmbedAI to a new platform, feel free to fork and submit a pull request. Let's build the edge intelligence revolution together.
+This project welcomes contributions! Whether you're fixing a bug, optimizing performance, or porting EmbedAI to a new platform, feel free to fork and submit a pull request.
+Join us in building the future of edge intelligence — lightweight, private, and truly embedded.
 
 ---
 
