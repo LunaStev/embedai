@@ -35,7 +35,7 @@ Built with efficiency and minimalism in mind, **EmbedAI** is written in C and de
 
 ## Project Status
 
-EmbedAI is currently in active early-stage development. Core features such as tensor operations, fully-connected layers, and forward propagation are implemented and being tested across real embedded platforms.
+EmbedAI is currently in active early-stage development. Core features such as tensor operations and fully-connected (Dense) layers are implemented. Inference is functional and being tested on embedded hardware like Raspberry Pi.
 
 Stay tuned — future releases will include support for:
 
@@ -49,7 +49,8 @@ Stay tuned — future releases will include support for:
 
 ## License
 
-EmbedAI is released under the MPL-2.0 License. See `LICENSE` for details.
+EmbedAI is released under the MPL-2.0 License — a permissive license that allows commercial use and modification, as long as changes to MPL-covered files are shared.  
+See [LICENSE](LICENSE) for full details.
 
 ---
 
