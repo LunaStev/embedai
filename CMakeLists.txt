@@ -5,12 +5,11 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(include)
 
-add_library(embedai STATIC
-        src/tensor.c
-        src/layer_dense.c
-        src/layer_relu.c
-        src/model_loader.c
+file(GLOB_RECURSE SRC_FILES
+        src/*.c
 )
+
+add_library(embedai STATIC ${SRC_FILES})
 
 add_executable(embedai_test
         test/main.c
