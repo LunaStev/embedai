@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <string.h>
 
-Tensor* tensor_create(u_int8_t ndim, const u_int16_t* dims) {
+Tensor* tensor_create(uint8_t ndim, const uint16_t* dims) {
     if (ndim > 4) return NULL;
 
     Tensor* tensor = (Tensor*)malloc(sizeof(Tensor));

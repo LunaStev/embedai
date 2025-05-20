@@ -6,14 +6,14 @@ Tensor* layer_dense_forward(const Tensor* input, const Tensor* weights, const Te
         return NULL;
     }
 
-    u_int16_t in_features = input->dims[1];
-    u_int16_t out_features = weights->dims[1];
+    uint16_t in_features = input->dims[1];
+    uint16_t out_features = weights->dims[1];
 
     if (input->dims[1] != weights->dims[0] || bias->dims[0] != out_features) {
         return NULL;
     }
 
-    u_int16_t out_dims[2] = {1, out_features};
+    uint16_t out_dims[2] = {1, out_features};
     Tensor* output = tensor_create(2, out_dims);
 
     for (int i = 0; i < out_features; ++i) {
